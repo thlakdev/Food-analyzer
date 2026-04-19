@@ -1,0 +1,16 @@
+# Security: DO NOT remove this. It protects your API Key.
+.env
+
+# Environment: No need to upload the entire toolbox, just the list (requirements.txt)
+venv/
+env/
+.venv/
+
+# Python: Ignore temporary files created when running the app
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS Specific: General junk files from Windows/Mac
+.DS_Store
+Thumbs.db
